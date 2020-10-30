@@ -1,0 +1,70 @@
+body {
+color:black;
+background-color:grey;
+margin : 0;
+	padding: 0;
+font-family: "DIMIS___",DIMIS___;
+	font-size: 140%;
+}
+
+@font-face {
+    font-family: 'DIMIS___';
+    src: url('DIMIS___.ttf');
+}
+
+header {
+    background: no-repeat left/cover url(header-background-1.jpg);
+    display: flex;
+    height: 220px;
+    min-width: 220px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+	}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+border: solid #6495ed;
+width: 50%;
+background-color: yellow;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+.Bouton {
+background-color: cyan;
+border: none;
+color: white;
+padding: 15px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+text-align: center;
+}
